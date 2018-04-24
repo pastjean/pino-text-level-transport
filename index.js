@@ -1,3 +1,7 @@
+#! /usr/bin/env node
+
+'use strict'
+
 var split = require('split2')
 var pump = require('pump')
 var through = require('through2')
