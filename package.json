@@ -1,0 +1,24 @@
+{
+  "name": "pino-text-level-transport",
+  "version": "1.0.0",
+  "author": "Pierre-Alexandre St-Jean <pa@pleo.io>",
+  "license": "MIT",
+  "description": "Transforms the log level number into text, used for eg: logdna",
+  "keywords": [
+    "pino",
+    "pinojs",
+    "logger",
+    "logdna",
+    "tranformer"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "private": false,
+  "dependencies": {
+    "pump": "3.0.0",
+    "split2": "2.2.0",
+    "through2": "2.0.3"
+  }
+}
